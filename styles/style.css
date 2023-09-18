@@ -27,6 +27,29 @@ body {
      margin-right: auto;
      max-width: 1280px;
 }
+.general-button {
+     border-radius: 6px;
+     background: var(--button-background-color);
+     padding-top: 15px;
+     padding-bottom: 16px;
+     padding-left: 31px;
+     padding-right: 31px;
+
+     color: var(--white-text-color);
+     text-align: center;
+     font-family: "Fraunces";
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 25px; /* 138.889% */
+     border: none;
+     cursor: pointer;
+}
+
+.general-button:hover {
+     background: #326564;
+     transition: var(--hover-transition);
+}
 
 /* Header styles */
 .header__container {
@@ -64,3 +87,36 @@ body {
      color: var(--dark-color);
      transition: var(--hover-transition);
 }
+
+/* Hero styles */
+
+.hero__container {
+     background-image: url('../img/Bitmap@2x.jpg');
+     background-size: 100% 100%;
+     border-radius: 10px;
+     padding: 96px 86px;
+}
+
+.hero__container h1 {
+     color: var(--white-text-color);
+     font-family: 'Fraunces';
+     font-size: 72px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 72px; /* 100% */
+     width: 50%;
+     margin-bottom: 32px;
+}
+
+.hero__container p {
+     color: var(--white-text-color);
+     font-family: "Barlow";
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px; /* 162.5% */
+     width: 40%;
+     margin-bottom: 56px;
+}
+
+
