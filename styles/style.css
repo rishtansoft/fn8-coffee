@@ -1,0 +1,30 @@
+
+ /* General styles */
+:root {
+     --gray-text-color: #83888F;
+     --white-text-color: #FEFCF7;
+     --button-background-color: #66D2CF;
+     --dark-gray-color: #83888F;
+     --orange-icon-color: #FDD6BA;
+     --dark-color: #333D4B;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-size: 16px;
+     font-family: 'Barlow';
+}
+
+.container {
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 1280px;
+}
+
+/* Header styles */
