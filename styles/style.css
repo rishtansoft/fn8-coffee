@@ -7,6 +7,7 @@
      --dark-gray-color: #83888F;
      --orange-icon-color: #FDD6BA;
      --dark-color: #333D4B;
+     --hover-transition: all 0.3s ease-out;
 }
 
 * {
@@ -28,3 +29,38 @@ body {
 }
 
 /* Header styles */
+.header__container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 44px 0px;
+}
+
+.header__logo img {
+     width: 236px;
+}
+
+.header__nav ul {
+     list-style: none;
+     display: flex;
+}
+
+.header__nav ul li:not(:last-child) {
+     margin-right: 33px;
+}
+
+.header__nav ul a {
+     text-decoration: none;
+     color: #83888F;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 15px; /* 125% */
+     letter-spacing: 0.923px;
+     text-transform: uppercase;
+}
+
+.header__nav ul a:hover {
+     color: var(--dark-color);
+     transition: var(--hover-transition);
+}
